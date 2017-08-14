@@ -3,6 +3,9 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+/*Layouts*/
+
 body{
 	background-color: #000;
 	font-family: Arial;
@@ -29,9 +32,27 @@ body{
 .ba-form__container-header {
 	padding: 27px 31px 16px 33px;
 }
+
+/* Form */
+
+.ba-form__form-form-container {
+	padding: 0 35px 0 31px;
+}
 .ba-form__container-header-name {
 	font-weight: 700;
 	font-size: 24px;
 	color: #1b1c1d;
 	line-height: 20px;
+}
+.ba-form__form .form-description {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+	color: #7a7b7f;
+	text-align: left;
+	padding: 0 35px 0 31px;
+}
+.ba-form__form .form-description a {
+	color: #ea355a;
+	text-decoration: none;
 }

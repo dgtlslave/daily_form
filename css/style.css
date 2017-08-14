@@ -3,6 +3,14 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+
 
 /*Layouts*/
 
@@ -50,9 +58,22 @@ body{
 	line-height: 20px;
 	color: #7a7b7f;
 	text-align: left;
-	padding: 0 35px 0 31px;
+	padding: 0 35px 22px 31px;
 }
 .ba-form__form .form-description a {
 	color: #ea355a;
 	text-decoration: none;
+}
+input {
+  margin-bottom: 15px;
+}
+.firstname, .lastname {
+  width: 193px;
+  height: 40px;
+  border-radius: 4px;
+}
+.email, .password {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
 }

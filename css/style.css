@@ -71,6 +71,10 @@ input {
 	background-color: #f0f0f0;
 	padding-left: 14px;
 }
+input:focus {
+	background-color: rgba(189,25,98,.3);
+	border-color: #ea355a;
+}
 .firstname {
 	margin-right: 3px;
 }
@@ -103,7 +107,7 @@ input {
 	color: #ea355a;
 	-webkit-box-shadow: 0px 3px 0px 0px #ea355a;
 	-moz-box-shadow: 0px 3px 0px 0px #ea355a;
-	box-shadow: 0px 3px 0px 0px #ea355a; 
+	box-shadow: 0px 3px 0px 0px #ea355a;
 }
 .form-terms-policy {
 	font-size: 12px;
